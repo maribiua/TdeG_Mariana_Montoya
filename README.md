@@ -13,6 +13,7 @@ El script realiza las siguientes tareas principales:
 3. Frecuencia diaria por mes y año
 4. Ajuste de la Ley de Omori
 5. Análisis de magnitudes (Gutenberg-Richter)
+6. Visualización espacial en 3D (MATLAB)
 
 ---
 
@@ -75,11 +76,18 @@ N(t) = k / (c + t)^p
 
 ---
 
+### 6. Visualización 3D de sismos (MATLAB)
+
+Esta sección del proyecto permite representar espacialmente los eventos sísmicos en tres dimensiones utilizando MATLAB. El objetivo es observar la distribución de los sismos en función de su latitud, longitud y profundidad, además de diferenciarlos según su magnitud.
+
+---
+
 ## ⚠️ Consideraciones
 
 - Los nombres de columnas deben coincidir o serán ajustados automáticamente.
 - Asegúrate de que las fechas estén en formato válido.
 - Algunos análisis dependen de archivos específicos.
+- Asegurar que los datos estén cargados en MATLAB
 
 ---
 
