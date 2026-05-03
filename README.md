@@ -1,4 +1,4 @@
-# 📊 Análisis de Sismicidad - Zona G
+# 📊 Análisis de Sismicidad
 
 Este proyecto contiene un conjunto de scripts en Python para el procesamiento, análisis y visualización de datos sísmicos, incluyendo la unificación de archivos, análisis temporal y aplicación de modelos estadísticos como la Ley de Omori y Gutenberg-Richter.
 
@@ -31,7 +31,7 @@ pip install pandas openpyxl matplotlib numpy scipy
 - Lee dos archivos Excel con diferentes formatos.
 - Homologa nombres de columnas.
 - Extrae fecha y hora.
-- Genera: G_UNIFICADO_COLUMNAS_COMUNES.xlsx
+- Genera: UNIFICADO_COLUMNAS_COMUNES.xlsx
 
 ---
 
@@ -39,8 +39,8 @@ pip install pandas openpyxl matplotlib numpy scipy
 
 - Calcula la cantidad de sismos por mes desde junio de 1993.
 - Genera:
-  - Excel: SISMOS_POR_MES_ZONA_G.xlsx
-  - Gráfica: grafica_sismos_Zona_G.png
+  - Excel: SISMOS_POR_MES.xlsx
+  - Gráfica: grafica_sismos.png
 
 ---
 
